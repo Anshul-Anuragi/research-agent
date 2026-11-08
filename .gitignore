@@ -1,0 +1,36 @@
+# Python Environment & Virtualenvs
+.venv/
+venv/
+ENV/
+env/
+*.env.local
+
+# Sensitive Credentials & Keys
+.env
+*.pem
+*.key
+
+# Python Bytecode & Cache
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+
+# IDE & Editor Settings
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+
+# Operating System Files
+.DS_Store
+Thumbs.db
+
+# Generated Output & Reports (Keep directory structure & demo report)
+reports/*.md
+!reports/.gitkeep
+!reports/state_of_ai_agents_2026.md

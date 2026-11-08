@@ -1,0 +1,13 @@
+services:
+  research-agent:
+    build:
+      context: .
+      dockerfile: Dockerfile
+    image: research-agent:latest
+    container_name: research_agent
+    env_file:
+      - .env
+    volumes:
+      # Mount host reports directory so generated research reports persist on your machine
+      - ./reports:/app/reports
+    restart: "no"
