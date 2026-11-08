@@ -1,8 +1,8 @@
 <div align="center">
 
-# 🧠 Autonomous Deep Research Agent
+# 🧠 Autonomous Research Agent
 
-### Production-grade AI Research Agent powered by **LangGraph**, **Google Gemini**, and **Tavily Search** with **Multi-Model Fault Tolerance**.
+### Single-agent research engine powered by **LangGraph**, **Google Gemini**, and **Tavily Search** with **Multi-Model Fault Tolerance**.
 
 [![Python](https://img.shields.io/badge/Python-3.11%20%7C%203.12%20%7C%203.14-3776AB?style=for-the-badge&logo=python&logoColor=white)](https://python.org)
 [![LangGraph](https://img.shields.io/badge/Orchestration-LangGraph%201.2+-1C3C3C?style=for-the-badge&logo=langchain&logoColor=white)](https://langchain-ai.github.io/langgraph/)
@@ -28,7 +28,7 @@
 
 ## 📌 Overview
 
-The **Autonomous Deep Research Agent** is a multi-step research engine designed to investigate complex topics, synthesize findings across real-time web search and verified encyclopedia knowledge bases, and automatically compile structured, executive-grade Markdown reports.
+The **Autonomous Research Agent** is a dedicated single-agent research engine designed to investigate topics, synthesize findings across real-time web search and verified encyclopedia knowledge bases, and automatically compile structured, executive-grade Markdown reports.
 
 Unlike fragile linear LLM prompt chains, this agent runs on a **cyclic LangGraph state machine** equipped with **Multi-Model Fallback Failover**—automatically circumventing Google Free-Tier rate limits (`429 RESOURCE_EXHAUSTED` and `503 UNAVAILABLE`) in real time.
 
@@ -268,7 +268,7 @@ git add .
 git status
 
 # 4. Make initial commit
-git commit -m "feat: initial commit of autonomous deep research agent"
+git commit -m "feat: initial commit of autonomous research agent"
 
 # 5. Link to your GitHub repository
 git remote add origin https://github.com/<your-username>/<your-repo-name>.git
