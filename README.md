@@ -38,9 +38,9 @@ Unlike fragile linear LLM prompt chains, this agent runs on a **cyclic LangGraph
 
 ### End-to-End System Flowchart
 
-<div align="center">
+<!-- <div align="center">
   <img src="assets/architecture-diagram.svg" alt="Autonomous Research Agent Architecture Flow" width="900"/>
-</div>
+</div> -->
 
 ### Interactive State Graph
 
